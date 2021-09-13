@@ -102,7 +102,7 @@ setup(name=package_name,
       ],
       python_requires = '>=3.6',
       cmdclass = {'build_ext': CustomBuildExtCommand},
-      install_requires=['numpy'],
+      setup_requires=['numpy'],
     )
 
 
