@@ -103,7 +103,7 @@ setup(name=package_name,
             'Programming Language :: Python :: 3',
       ],
       python_requires = '>=3.6',
-            setup_requires=['numpy'],
+            setup_requires=['numpy==1.19.5'],
       install_requires=get_required_packages(),
       cmdclass={'build_ext': build_ext},)
 
